@@ -1,0 +1,66 @@
+body 
+{
+    background-color: #cbd0d1;
+}
+
+.main-header 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #79797a;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-input 
+{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+
+
+#btn-apagar 
+{
+    padding: 6px;
+    background-color: rgb(251, 5, 5);
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-edit 
+{
+    padding: 6px;
+    background-color: rgb(0, 255, 55);
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+table
+{
+    border: 2px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    margin-top: 30px;
+}
+
+table tr
+{
+    background-color: #f8f8f8;
+    border-radius: 6px;
+    border: 2px solid #ddd;
+    padding: 18px;
+}
+
+table th, table td
+{
+    padding: 12px;
+    text-align: center;
+}
+

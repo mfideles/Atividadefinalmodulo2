@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastrar novo usuário</title>
+        <link rel="stylesheet" href="../cadastro/cadastro.css">
+    </head>
+    <body>
+        <div class="container" >
+            <div class="fundo" >
+                <img src="../images/digitando-mouse-teclado-v2.jpg" />
+            </div>
+            <div class="logo-area" >
+                <img src="../images/login.png" alt="Sistema do logo" />
+            </div>
+            <section class="section-login" >
+                <form id="form-login" >
+                    <main>
+                        <div class="data-box" >
+                            <label id='labelNome' for="nome" >Nome</label>
+                            <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                        </div>
+                        <br>
+                        <div class="data-box" >
+                            <label  id="labelEmail" for="email" >Email</label>
+                            <input type="email" name="email" id="email" placeholder="Digite o seu e-mail">
+                        </div>
+                        <br>
+                        <div class="data-box" >
+                            <label id="labelSenha" for="password" >Senha</label>
+                            <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+                        </div>
+                    </main>
+                    <footer class="data-box">
+                        <button id="btn-submit" type="submit" onclick="cadastrar()">Criar conta</button>
+                        <a href="../login/login.html" >Clique aqui se já tem conta</a>
+                    </footer>
+                </form>
+            </section>
+        </div>
+        <script src="../cadastro/cadastro.js" ></script>
+    </body>
+</html>
